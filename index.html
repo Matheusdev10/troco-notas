@@ -19,17 +19,26 @@
       <input
         type="number"
         class="form-control mb-5"
+        id="input-buy"
         placeholder="Valor da Compra"
       />
-      <input type="number" class="form-control mb-5" placeholder="Valor Pago" />
+      <input
+        type="number"
+        class="form-control mb-5"
+        id="input-pay"
+        placeholder="Valor Pago"
+      />
       <div class="d-grid gap-2 col-6 mx-auto mb-5">
-        <button class="btn btn-primary" type="button">Calcular</button>
+        <button class="btn btn-primary" id="firstButton" type="button">
+          Calcular
+        </button>
       </div>
 
       <textarea
         rows="10"
         cols="20"
         class="form-control"
+        id="result"
         placeholder="Troco"
         id="floatingTextarea"
       ></textarea>
@@ -40,5 +49,6 @@
         </button>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
